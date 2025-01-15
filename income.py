@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 def main():
     try:
-        X = [[25], [30], [35], [40], [45], [50], [55]]  # age of individuals
+        X = [[25], [30], [35], [40], [45], [50], [55]]  # ages of individuals
         y = [70000, 75000, 85000, 80000, 80000, 90000, 100000]  # income for each corresponding individual
 
         # fit a linear regression model
@@ -17,7 +17,7 @@ def main():
         print(f'y-intercept: {model.intercept_}')  # y-intercept of the line
 
         # make predictions
-        X_new = [[28], [33], [35], [60]]  # age of new individual
+        X_new = [[28], [33], [35], [60]]  # ages of new individuals
         y_pred = model.predict(X_new)  # predicted income of new individual
         print(f'predicted income: {y_pred}')
 
