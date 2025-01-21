@@ -3,4 +3,9 @@ Linear Regression is a statistical algorithm used to model the relationship betw
 
 Simplicity is one of the greatest strengths of linear regression-it displays clear coefficients which illustrate the influence of each independent variable on the dependent variable. 
 
-Our primary objective with linear regression is to locate the line of best fit, which implies that the error between predicted and actual values should be kept to a minimum. <img width="568" alt="Screenshot 2025-01-20 at 9 34 42 PM" src="https://github.com/user-attachments/assets/274fc61a-df7a-493f-a73d-19c5b326b7ed" />
+Our primary objective with linear regression is to locate the line of best fit, which implies that the error between predicted and actual values should be kept to a minimum. 
+
+<img width="568" alt="Screenshot 2025-01-20 at 9 34 42 PM" src="https://github.com/user-attachments/assets/274fc61a-df7a-493f-a73d-19c5b326b7ed" />
+
+Here Y is called a dependent or target variable and X is the independent or predictor of Y. X may be a single or multiple features. 
+
