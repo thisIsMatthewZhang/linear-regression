@@ -9,3 +9,17 @@ Our primary objective with linear regression is to locate the line of best fit, 
 
 Here Y is called a dependent or target variable and X is the independent or predictor of Y. X may be a single or multiple features. 
 
+Hypothesis function in Linear Regression
+Assumptions:
+  - Linearity: It assumes that there is a linear relationship between the independent and dependent variables. This means that changes in the independent variable lead to proportional changes in the dependent variable.
+  - Independence: The observations should be independent from each other that is the errors from one observation should not influence other.
+<img width="648" alt="Screenshot 2025-01-20 at 10 37 19 PM" src="https://github.com/user-attachments/assets/8169ceed-0f02-4a82-bece-23dba2545f42" />
+
+How to update θ1 and θ2 values to get the best-fit line? 
+  - To achieve the best-fit regression line, the model aims to predict the target value such that the error difference between the predicted value and the true value is minimum. 
+
+Types of Linear Regression
+  - When there is only one independent feature it is known as Simple Linear Regression or Univariate Linear Regression. When there are more than one features it is known as Multivariate Regression.
+  1)  
+
+
