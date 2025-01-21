@@ -19,7 +19,12 @@ How to update θ1 and θ2 values to get the best-fit line?
   - To achieve the best-fit regression line, the model aims to predict the target value such that the error difference between the predicted value and the true value is minimum. 
 
 Types of Linear Regression
-  - When there is only one independent feature it is known as Simple Linear Regression or Univariate Linear Regression. When there are more than one features it is known as Multivariate Regression.
-  1)  
+  1)  Simple Linear Regression: involves only one independent and dependent variable. Equation is of the from y=β0 + β1X
+      - Assumptions: Linear, Independence, Homoscedasticity (constant variance of error across all levels of independent variable(s)), Normality
+  2) Multiple Linear Regression: more than one independent variable and one dependent variable. Equation is of the form y = β0 + β1X1 + β2X2 + ……… βnXn
+      - Assumptions: No multicollinearity (check correlation matrix and Variance Inflation Factor), Additivity (no interaction between variables in their effects on the dependent variable), Feature Selection, Overfitting
 
+Cost function for Linear Regression
+
+    
 
