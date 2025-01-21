@@ -24,7 +24,14 @@ Types of Linear Regression
   2) Multiple Linear Regression: more than one independent variable and one dependent variable. Equation is of the form y = β0 + β1X1 + β2X2 + ……… βnXn
       - Assumptions: No multicollinearity (check correlation matrix and Variance Inflation Factor), Additivity (no interaction between variables in their effects on the dependent variable), Feature Selection, Overfitting
 
-Cost function for Linear Regression
+Cost function for Linear Regression: difference between the predicted value and the true value.
+  - It is not easy to get the line of best fit in real life scenarios, so we need a way to calculate the errors that affect it.
+  - In linear regression, the Mean Squared Error (MSE) is the most commonly used cost function. It calculates the average of the squared errors between the predicted values and actual values.
+  - <img width="312" alt="Screenshot 2025-01-21 at 1 12 29 PM" src="https://github.com/user-attachments/assets/4051bcf4-d505-42dd-a350-18c3d3e6b0c1" />
+  - Utilizing MSE, gradient descent is applied to update θ1 and θ2. This ensures that the MSE value converges to a global minima, signifying the most accurate fit of the linear regression line to the dataset. This process involves continuously adjusting the parameters θ1 and θ2 based on the gradients calculated from MSE. The end result is a regression line that minimizes the error between predicted and actual values.
+
+Gradient Descent for Linear Regression
+  - 
 
     
 
