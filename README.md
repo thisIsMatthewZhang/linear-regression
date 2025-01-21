@@ -31,5 +31,8 @@ Cost function for Linear Regression: difference between the predicted value and 
   - Utilizing MSE, gradient descent is applied to update θ1 and θ2. This ensures that the MSE value converges to a global minima, signifying the most accurate fit of the linear regression line to the dataset. This process involves continuously adjusting the parameters θ1 and θ2 based on the gradients calculated from MSE. The end result is a regression line that minimizes the error between predicted and actual values.
   - A gradient is a derivative that defines the effects on outputs of the function given minor variations in inputs.
   - By moving in the direction of the MSE negative gradient w.r.t. the coefficients, the coefficients can be changed.
-<img width="312" alt="Screenshot 2025-01-21 at 1 12 29 PM" src="https://github.com/user-attachments/assets/caf54447-c800-4fe8-be5c-ec40c561fa68" />
+<img width="414" alt="Screenshot 2025-01-21 at 1 34 29 PM" src="https://github.com/user-attachments/assets/aedc04d0-447b-442d-b07d-576f37b339e2" />
 
+Evaluation Metrics: Mean Squared Error (MSE), Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), Coefficient of Determination (R-squared), Adjusted R-squared Error
+
+Regularization Techniques for Linear Models
