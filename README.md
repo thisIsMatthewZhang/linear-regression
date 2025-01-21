@@ -27,11 +27,9 @@ Types of Linear Regression
 Cost function for Linear Regression: difference between the predicted value and the true value.
   - It is not easy to get the line of best fit in real life scenarios, so we need a way to calculate the errors that affect it.
   - In linear regression, the Mean Squared Error (MSE) is the most commonly used cost function. It calculates the average of the squared errors between the predicted values and actual values.
-  - <img width="312" alt="Screenshot 2025-01-21 at 1 12 29 PM" src="https://github.com/user-attachments/assets/4051bcf4-d505-42dd-a350-18c3d3e6b0c1" />
+    <img width="312" alt="Screenshot 2025-01-21 at 1 12 29 PM" src="https://github.com/user-attachments/assets/4051bcf4-d505-42dd-a350-18c3d3e6b0c1" />
   - Utilizing MSE, gradient descent is applied to update θ1 and θ2. This ensures that the MSE value converges to a global minima, signifying the most accurate fit of the linear regression line to the dataset. This process involves continuously adjusting the parameters θ1 and θ2 based on the gradients calculated from MSE. The end result is a regression line that minimizes the error between predicted and actual values.
-
-Gradient Descent for Linear Regression
-  - 
-
-    
+  - A gradient is a derivative that defines the effects on outputs of the function given minor variations in inputs.
+  - By moving in the direction of the MSE negative gradient w.r.t. the coefficients, the coefficients can be changed.
+<img width="312" alt="Screenshot 2025-01-21 at 1 12 29 PM" src="https://github.com/user-attachments/assets/caf54447-c800-4fe8-be5c-ec40c561fa68" />
 
