@@ -38,7 +38,7 @@ Evaluation Metrics: Mean Squared Error (MSE), Mean Absolute Error (MAE), Root Me
 Regularization Techniques for Linear Models
   1) Lasso Regression (L1 Regularization): adds a penalty term to the linear regression objective function to prevent overfitting
   2) Ridge Regression (L2 Regularization): adds a regularization term ti the standard linear objective. The goal is once again to prevent overfitting by penalizing large coefficients in the equation. It is useful when the dataset has multicollinearity.
-  3) Elastic Net Regression: hybrid technique that combines L1 and L2 in linear regression objective.  
+  3) Elastic Net Regression: hybrid technique that combines L1 and L2 in linear regression objective.
 
 
 
