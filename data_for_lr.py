@@ -13,3 +13,5 @@ train_output = np.array(data.y[:500]).reshape(500, 1)
 test_input = np.array(data.x[500:700]).reshape(199, 1)
 test_output = np.array(data.y[500:700]).reshape(199, 1)
 
+model = LinearRegression()
+parameters, loss = model.train(train_input, train_output)
